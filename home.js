@@ -87,10 +87,14 @@ console.log(fullName)
 // console.error(studentDetails)
 
 // Array 
-// let personDetails = ["person1","person2", "person3"]
-// console.log(personDetails[3])
+// let personDetails = [
+//       {
+//       preson1 : "perosn name " 
+//       },
+//       "person2", "person3"]
+// console.log(personDetails)
 
 
 // let name
 
-console.log(name)
+// console.log(name)
