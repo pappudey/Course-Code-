@@ -98,3 +98,79 @@ console.log(fullName)
 // let name
 
 // console.log(name)
+
+// let userName = prompt("Enter Your name ", "Pappu Dey")
+// console.log(userName)
+
+
+// let confirmValue = confirm("Enter your name ")
+
+// console.log(confirmValue)
+
+// let sumNum = 10;
+// console.log(sumNum++)
+
+
+// let decNum  = 19;
+// console.log(decNum--)
+
+// console.log(19**2)
+
+// let x = 10;
+// let y = 20;
+// console.log(x+=y)
+
+let numOne = 10;
+let numTwo = 20;
+let sumOrDec = prompt("Enter a operator ", "")
+
+
+
+// console.log(numOne++)
+
+if ( sumOrDec !== "-"){
+
+      let numOneCheck = numOne > 0 ? numOne : "False";
+      let numTwoCheck = numTwo > 0 ? numTwo : "False"
+
+
+      if (numOneCheck === "False" ){
+            console.log("Number Error");
+      }
+      else if(numTwoCheck === "False"){
+            console.log("Number Error");
+      }
+      else{
+
+            let sum = numOneCheck + numTwoCheck;
+            console.log(sum)
+
+      }
+      
+      
+}
+else if (sumOrDec !== "+"){
+      
+
+      let numOneCheck = numOne > 0 ? numOne : "False";
+      let numTwoCheck = numTwo > 0 ? numTwo : "False"
+
+
+      if (numOneCheck === "False" ){
+            console.log("Number Error");
+      }
+      else if(numTwoCheck === "False"){
+            console.log("Number Error");
+      }
+      else{
+
+            let sum = numOneCheck - numTwoCheck;
+            console.log(sum)
+
+      }
+}
+else {
+      console.log("Error")
+}
+
+
