@@ -2,15 +2,33 @@
 <html lang="en">
   <head>
     <title>Js Class</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="demo">Stack Learner</h1>
+    <h2>Js class day 02</h2>
+    <div id="container">
+      <div id="innerBox">
+        <div class="sliceOne">
+          <label id="labelOne">01</label>
+        </div>
+        <div class="sliceTwo">
+          <label id="labelTwo">02</label>
+        </div>
+        <div>
+          <label id="result"> result </label>
+        </div>
+      </div>
+    </div>
 
-    <button
-      type="button"
-      onclick="document.getElementById('demo').innerHTML ='HELLO jAVASCRIPT' "
-    >
-      Text change
-    </button>
+    <script src="home.js"></script>
+    <script>
+      let numberOne = 10;
+      let numberTwo = 20;
+      let result = numberOne + numberTwo;
+
+      document.getElementById("labelOne").innerHTML = numberOne;
+      document.getElementById("labelTwo").innerHTML = numberTwo;
+      document.getElementById("result").innerHTML = result;
+    </script>
   </body>
 </html>

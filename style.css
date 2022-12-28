@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#innerBox {
+  width: 400px;
+  height: 300px;
+  background: rgb(2, 175, 255);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin-top: 12%;
+}
+
+#labelOne,
+#labelTwo {
+  padding: 10px 20px;
+  background-color: azure;
+}
+
+#result {
+  padding: 15px 30px;
+  background-color: brown;
+}
+
+.sliceOne,
+.sliceTwo {
+  width: 50px;
+  height: 40px;
+  margin: 10px;
+}
