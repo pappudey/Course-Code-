@@ -28,10 +28,69 @@ console.log("total ", 5 + 5, 7 * 7);
 // let $ = 10;
 // let _ = 20
 
-let firstName = "pappu";
-let lastName = "Dey";
+// let firstName = "pappu";
+// let lastName = "Dey";
 
 // console.log(firstName+ lastName);
 // document.write(firstName + " " + lastName)
 
 
+// console.log( 10 );
+// console.log(34.22);
+
+// console.log(10+ 20)
+
+// console.log(30 + 5.06)
+
+
+// object class 
+
+// const personDetails = {
+//       name : "pappu dey",
+//       roll : 25,
+// }
+
+// let name = "Coder Pappu";
+
+/*
+const studentDetails = {
+      student1 : {
+            name : "Pappu Dey",
+            roll : 12,
+            department : "Computer Technology",
+            semester : "4th",
+            group : "B1"
+      },
+      student2 : {
+            name : {
+                  firstName : "Khalifa",
+                  lastName : "Anas"
+            },
+            roll : 10,
+            department : "computer technology ",
+            semester : "4th",
+            group  : "B1"
+      }
+}
+
+let studentFirstName = studentDetails.student2.name.firstName;
+let studentLastName = studentDetails.student2.name.lastName;
+let fullName = studentFirstName + " " +  studentLastName;
+
+console.log(fullName)
+
+*/
+
+
+// console.log(studentDetails.student1.department)
+// console.warn(studentDetails)
+// console.error(studentDetails)
+
+// Array 
+// let personDetails = ["person1","person2", "person3"]
+// console.log(personDetails[3])
+
+
+// let name
+
+console.log(name)
