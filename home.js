@@ -32,4 +32,6 @@ let firstName = "pappu";
 let lastName = "Dey";
 
 // console.log(firstName+ lastName);
-document.write(firstName + " " + lastName)
+// document.write(firstName + " " + lastName)
+
+
