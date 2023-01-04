@@ -21,14 +21,50 @@
     </div>
 
     <script src="home.js"></script>
-    <script>
-      let numberOne = 20;
-      let numberTwo = 20;
-      let result = numberOne + numberTwo;
 
-      document.getElementById("labelOne").innerHTML = numberOne;
-      document.getElementById("labelTwo").innerHTML = numberTwo;
-      document.getElementById("result").innerHTML = result;
+    <script>
+      let numOne = -20;
+      let numTwo = 20;
+      let sumOrDec = prompt("Enter a operator ", "");
+
+      // console.log(numOne++)
+      let numOneCheck = 0;
+      let numTwoCheck = 0;
+      let sum = 0;
+
+      if (sumOrDec !== "-") {
+        numOneCheck = numOne > 0 ? numOne : "False";
+
+        numTwoCheck = numTwo > 0 ? numTwo : "False";
+
+        if (numOneCheck === "False") {
+          console.log("Number Error");
+        } else if (numTwoCheck === "False") {
+          console.log("Number Error");
+        } else {
+          sum = numOneCheck + numTwoCheck;
+        }
+      } else if (sumOrDec !== "+") {
+        let numOneCheck = numOne > 0 ? numOne : "False";
+        let numTwoCheck = numTwo > 0 ? numTwo : "False";
+
+        if (numOneCheck === "False") {
+          console.log("Number Error");
+        } else if (numTwoCheck === "False") {
+          console.log("Number Error");
+        } else {
+          sum = numOneCheck - numTwoCheck;
+        }
+      } else {
+        console.log("Error");
+      }
+
+      console.log(numOneCheck);
+      console.log(numTwoCheck);
+
+      document.getElementById("labelOne").innerHTML = numOneCheck;
+      document.getElementById("labelTwo").innerHTML = numTwoCheck;
+      document.getElementById("result").innerHTML = sum;
     </script>
   </body>
 </html>
