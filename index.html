@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2 class="heading">Js class day 02</h2>
+    <h2 class="heading" id="getDate">Js class day 02</h2>
     <div id="container">
       <div id="innerBox">
         <div class="sliceOne">
@@ -15,17 +15,24 @@
           <label id="labelTwo">02</label>
         </div>
         <div>
-          <label id="result"> result </label>
+          <label id="result"> result </label><br />
+          <label for="" id="getDate"> Date </label>
         </div>
       </div>
     </div>
 
+    <!-- <button onclick="document.getElementById('getDate').innerHTML = Date() ">
+      Click Me
+    </button> -->
+    <!-- <button onmouseout="document.getElementById('getDate').innerHTML = Date() ">
+      Click Me
+    </button> -->
     <script src="main.js"></script>
     <script>
       // let numberOne = 20;
       // let numberTwo = 20;
       // let result = numberOne + numberTwo;
-      let user = prompt("", "");
+      // let user = prompt("", "");
 
       function myCal(p1, p2, p3) {
         let numOne = p1;
