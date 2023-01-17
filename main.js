@@ -1,65 +1,81 @@
 
-let userString = "It's ,development , development"
-// console.log(userString.length)
-// console.log(userString.slice(11))
-
-// console.log(userString.substring(2, 10))
-
-// console.log(userString.substr(2, 13))
-
-// console.log(userString.replace("development", "design"))
-
-// console.log(userString.replaceAll())
 
 
-// console.log(userString.toUpperCase())
-// console.log(userString.toLowerCase())
+// let array_Name = ["pappu", "Sourov", "kawsar"]
 
-// let textOne = "Hello";
-// let textTwo = "World"
+// let student_data = [];
 
-// let result = textOne.concat(" ", textTwo)
-// console.log(result)
-
-// let userName = " dfg   pappu      ";
-// console.log(userName.trim());
-// console.log(userName.trimStart());
-// console.log(userName.trimEnd())
+// student_data[0] = "pappu";
+// student_data[1] = "sourov";
+// student_data[2] = "Kawsar"
 
 
+// let student_data = new Array("Pappu",  "kawsar", "Sourov")
+// let numberList = [5,10, 20,30,50,12,6] 
 
-// let ourText = "Ban| gla desh";
-// console.log(ourText.split(" |"))
+// let num = [5,2,6,3,7,3,10,12,30,15]
+
+// student_data[2] = "Nasifa";
+
+// student_data[0] = "Dey"
+// console.log(student_data.length)
+
+// let userName = ["coder", "developer", "programmer"]
+
+// console.log(userName.join("@"))
+// userName.pop()
+
+// userName.push("codex")
+
+// userName.shift()
+// userName.unshift("Codex")
+
+// delete userName
+
+// console.log(userName.concat(userAge))
+// console.log(userAge.concat(userName))
+
+var userName = ["coder", "developer", "programmer"]
+
+// userName.splice(1, 0, "codex")
+
+// console.log(userName.slice(0,1))
+
+if (3 === 3){
+    day = "Tuesday";
+
+}
+
+var day = ""
+switch (10) { 
+  
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+    default:
+        console.log('Error')
+        break;
+}
 
 
-// let userDetails = `Lorem ipsum dolor ${2+2} sit amet consectetur.`
-// console.log(userDetails)
-
-// let userDetails = `Lorem ipsum dolor sit amet consectetur. Lorem sit`;
-
-// console.log(userDetails.indexOf("Lorem"))
-// console.log(userDetails.lastIndexOf("Lorem"))
-
-// console.log(userDetails.indexOf("sit", ))
 
 
-
-// console.log(userDetails.search("lorem"))
-
-// let userDataCon = userDetails.toLowerCase();
-
-// if(userDataCon === "lorem"){
-//     console.log("true")
-// }
-
-
-// let userDetails = ` ipsum dolor sit amet consectetur.  sit  Lorem`;
-
-// console.log(userDetails.match("ipsum"))
-
-
-// console.log(userDetails.includes("Lorem", 8))
-
-// console.log(userDetails.endsWith("Lorem"))
-
-
+console.log(day)      
+p0tu9k
