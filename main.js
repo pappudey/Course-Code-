@@ -1,81 +1,81 @@
+// Javascript Loop 
+
+
+// For loop 
+
+// let person = ["pappu", "dey", 'Swarna', "codex"]
+
+// console.log(person[0])
+// console.log(person[1])
 
 
 
-// let array_Name = ["pappu", "Sourov", "kawsar"]
+// for(let i = 0 ; i <=person.length - 1; i++){
+//     console.log(person[i])
+// }
 
-// let student_data = [];
+// for 
+// for in
+// for of 
+// while 
+// do while 
 
-// student_data[0] = "pappu";
-// student_data[1] = "sourov";
-// student_data[2] = "Kawsar"
+// let studentDetails = {
+//     firstName : "Pappu",
+//     lastName : "Dey",
+//     roll : 588764,
+//     group : "B1"
+// }
+
+// let fullDetails = " ";
+
+// for (let i in studentDetails){
+//     fullDetails += studentDetails[i]
+    
+// };
+// console.log(fullDetails)
 
 
-// let student_data = new Array("Pappu",  "kawsar", "Sourov")
-// let numberList = [5,10, 20,30,50,12,6] 
+// let number = [10,20,30,50,60];
 
-// let num = [5,2,6,3,7,3,10,12,30,15]
+// let totalNum = 0;
 
-// student_data[2] = "Nasifa";
+// for(let x of number){
+//     totalNum += x
+    
+// }
+// console.log(totalNum)
 
-// student_data[0] = "Dey"
-// console.log(student_data.length)
+// let i = 0
+// while(i < 5){
+//     console.log(i)
+//     i++
+// }
 
-// let userName = ["coder", "developer", "programmer"]
+// let i = 6
+// do{
+//     console.log("the number is " + i)
+//     i++
+// }while(i < 5)
 
-// console.log(userName.join("@"))
-// userName.pop()
 
-// userName.push("codex")
+// for ( let i = 0; i <=20; i++){
+//     if(i === 10){
+//         continue;
+//         break;
+//     }else{
+//         console.log(i)
+//     }
+// }
 
-// userName.shift()
-// userName.unshift("Codex")
-
-// delete userName
-
-// console.log(userName.concat(userAge))
-// console.log(userAge.concat(userName))
-
-var userName = ["coder", "developer", "programmer"]
-
-// userName.splice(1, 0, "codex")
-
-// console.log(userName.slice(0,1))
-
-if (3 === 3){
-    day = "Tuesday";
-
+let x = 0;
+let y = 0;
+for (let i = 0;i <=10; i++){
+    for (let l=0; l <=10; l++){
+        x += i
+        y += l
+    }
 }
 
-var day = ""
-switch (10) { 
-  
-    case 0:
-        day = "Sunday";
-        break;
-    case 1:
-        day = "Monday";
-        break;
-    case 2:
-        day = "Tuesday";
-        break;
-    case 3:
-        day = "Wednesday";
-        break;
-    case 4:
-        day = "Thursday";
-        break;
-    case 5:
-        day = "Friday";
-        break;
-    case 6:
-        day = "Saturday";
-    default:
-        console.log('Error')
-        break;
-}
 
-
-
-
-console.log(day)      
-p0tu9k
+console.log("X = "+ x , "Y = "+y)
