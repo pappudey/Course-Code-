@@ -1,81 +1,79 @@
-// Javascript Loop 
+// iterable 
 
-
-// For loop 
-
-// let person = ["pappu", "dey", 'Swarna', "codex"]
-
-// console.log(person[0])
-// console.log(person[1])
-
-
-
-// for(let i = 0 ; i <=person.length - 1; i++){
-//     console.log(person[i])
+// let personName ={
+//     name : "Pappu",
+//     roll : "7",
+//     group : "B"
 // }
 
-// for 
-// for in
-// for of 
-// while 
-// do while 
+// let personArray = ["Pappu", "Sourov", "Swarna", "Nasifa"]
 
-// let studentDetails = {
-//     firstName : "Pappu",
-//     lastName : "Dey",
-//     roll : 588764,
-//     group : "B1"
+// console.log(personArray)
+// console.log(personArray[0])
+// console.log(personArray[2])
+
+// let myClgName = "Chattogram Polytechnic Institute";
+
+// for (name of myClgName){
+//     console.log(name)
 // }
 
-// let fullDetails = " ";
 
-// for (let i in studentDetails){
-//     fullDetails += studentDetails[i]
-    
-// };
-// console.log(fullDetails)
+// let name = []
+// set 
 
+// let ourStudent = new Set(["pappu", "swarna", "nasifa"]);
+// console.log(ourStudent)
 
-// let number = [10,20,30,50,60];
-
-// let totalNum = 0;
-
-// for(let x of number){
-//     totalNum += x
-    
-// }
-// console.log(totalNum)
-
-// let i = 0
-// while(i < 5){
-//     console.log(i)
-//     i++
+// for (stuname of ourStudent){
+//     console.log(stuname)
 // }
 
-// let i = 6
-// do{
-//     console.log("the number is " + i)
-//     i++
-// }while(i < 5)
+// ourStudent.add("Sourov");
+// ourStudent.add("Saad Bin Alom");
 
+// ourStudent.delete("Sourov")
 
-// for ( let i = 0; i <=20; i++){
-//     if(i === 10){
-//         continue;
-//         break;
-//     }else{
-//         console.log(i)
+// for (stuname of ourStudent){
+//         console.log(stuname)
 //     }
+
+
+// console.log(ourStudent.size)
+// console.log(ourStudent.values())
+
+// let names = "";
+
+// ourStudent.forEach(function(value){
+//     names += value;
+    
+// })
+
+// let personArray = ["Pappu", "Sourov", "Swarna", "Nasifa"]
+
+
+// personArray.forEach(function(value){
+//     console.log(value)
+// })
+
+
+// let ourStu = new Map([
+//     ["pappu", 100],
+//     ["Sourov", 101],
+//     ["Swarna", 102]
+// ])
+// let ourStu = new Map()
+// ourStu.set("coder", 23);
+// ourStu.set("developer", 25);
+// ourStu.set(101, "coder Pappu Dey")
+
+// console.log(ourStu.get("developer"));
+// console.log(ourStu.size)
+// console.log(ourStu.delete("coder"))
+// console.log(ourStu.has("coder"))
+
+// let name = ""
+// for (x of ourStu.entries()){
+//     name += x;
 // }
-
-let x = 0;
-let y = 0;
-for (let i = 0;i <=10; i++){
-    for (let l=0; l <=10; l++){
-        x += i
-        y += l
-    }
-}
-
-
-console.log("X = "+ x , "Y = "+y)
+// console.log(name)
