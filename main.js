@@ -1,33 +1,47 @@
-// let docName = document.getElementById("container");
-// let programmer = document.getElementById("programmer");
-// programmer.textContent= "Codex Devware"
-// programmer.innerText = "Codex Devware"
+// let ourStudentSets = new Set();
+
+// ourStudentSets.add("pappu");
+// ourStudentSets.add("sourov");
+// ourStudentSets.add("Swarna");
+
+// ourStudentSets.delete("pappu")
+// console.log(ourStudentSets.has("pappu")
+// )
 
 
-// console.dir(programmer.textContent)
-// console.dir(programmer.innerText)
-// console.dir(programmer.innerHTML)
+// ourStudentSets.add(["pappu", "sourov", "sswarna", "nasifa"])
+// ourStudentSets.add(["pappu2", "sourov", "sswarna3", "nasifa"])
+// console.log(ourStudentSets)
 
-// programmer.style.color ="black"
-// programmer.style.fontWeight = "100";
+// let allStudents = [ ]
 
-// let programmer = document.querySelector("#programmer");
+// ourStudentSets.forEach(function(value){
+    // allStudents  = allStudents+value
+//     allStudents.push(value)
+// })
 
-
-// let tagConnect = document.getElementsByTagName("div");
-
-let container = document.querySelector("#container");
-let h2Element = container.querySelector("h2");
+// console.log(allStudents)
 
 
-let newElement = document.createElement('div')
-newElement.className = "red";
 
-newElement.setAttribute("id", "blue");
-newElement.setAttribute("title", "Hey Programmer")
+let ourStudents = {
+    "name" : "Pappu",
+    "roll" : 23,
+    91 : "developer"
+}
 
-container.insertBefore(newElement,h2Element);
-newElement.innerHTML = "New Element Add "
+let allStudents = new Map();
+allStudents.set("name" , "pappu")
+allStudents.set(01 , "developer")
+// console.log(allStudents.get("name"))
+// console.log(allStudents)
+// console.log(ourStudents)
+// console.log(ourStudents[91])
 
-console.log(newElement)
 
+// allStudents.forEach(function(value,key){
+//     console.log(key, value)
+// })
+
+console.log(
+    allStudents.entries())
