@@ -1,79 +1,33 @@
-// iterable 
-
-// let personName ={
-//     name : "Pappu",
-//     roll : "7",
-//     group : "B"
-// }
-
-// let personArray = ["Pappu", "Sourov", "Swarna", "Nasifa"]
-
-// console.log(personArray)
-// console.log(personArray[0])
-// console.log(personArray[2])
-
-// let myClgName = "Chattogram Polytechnic Institute";
-
-// for (name of myClgName){
-//     console.log(name)
-// }
+// let docName = document.getElementById("container");
+// let programmer = document.getElementById("programmer");
+// programmer.textContent= "Codex Devware"
+// programmer.innerText = "Codex Devware"
 
 
-// let name = []
-// set 
+// console.dir(programmer.textContent)
+// console.dir(programmer.innerText)
+// console.dir(programmer.innerHTML)
 
-// let ourStudent = new Set(["pappu", "swarna", "nasifa"]);
-// console.log(ourStudent)
+// programmer.style.color ="black"
+// programmer.style.fontWeight = "100";
 
-// for (stuname of ourStudent){
-//     console.log(stuname)
-// }
-
-// ourStudent.add("Sourov");
-// ourStudent.add("Saad Bin Alom");
-
-// ourStudent.delete("Sourov")
-
-// for (stuname of ourStudent){
-//         console.log(stuname)
-//     }
+// let programmer = document.querySelector("#programmer");
 
 
-// console.log(ourStudent.size)
-// console.log(ourStudent.values())
+// let tagConnect = document.getElementsByTagName("div");
 
-// let names = "";
-
-// ourStudent.forEach(function(value){
-//     names += value;
-    
-// })
-
-// let personArray = ["Pappu", "Sourov", "Swarna", "Nasifa"]
+let container = document.querySelector("#container");
+let h2Element = container.querySelector("h2");
 
 
-// personArray.forEach(function(value){
-//     console.log(value)
-// })
+let newElement = document.createElement('div')
+newElement.className = "red";
 
+newElement.setAttribute("id", "blue");
+newElement.setAttribute("title", "Hey Programmer")
 
-// let ourStu = new Map([
-//     ["pappu", 100],
-//     ["Sourov", 101],
-//     ["Swarna", 102]
-// ])
-// let ourStu = new Map()
-// ourStu.set("coder", 23);
-// ourStu.set("developer", 25);
-// ourStu.set(101, "coder Pappu Dey")
+container.insertBefore(newElement,h2Element);
+newElement.innerHTML = "New Element Add "
 
-// console.log(ourStu.get("developer"));
-// console.log(ourStu.size)
-// console.log(ourStu.delete("coder"))
-// console.log(ourStu.has("coder"))
+console.log(newElement)
 
-// let name = ""
-// for (x of ourStu.entries()){
-//     name += x;
-// }
-// console.log(name)

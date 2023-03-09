@@ -38,3 +38,8 @@
   height: 40px;
   margin: 10px;
 }
+
+#programmer {
+  color: red;
+  text-transform: uppercase;
+}
