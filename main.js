@@ -1,47 +1,33 @@
-// let ourStudentSets = new Set();
+// regExp = new RegExp("pattern", "flags");
 
-// ourStudentSets.add("pappu");
-// ourStudentSets.add("sourov");
-// ourStudentSets.add("Swarna");
+// regExp = /pettern/i
 
-// ourStudentSets.delete("pappu")
-// console.log(ourStudentSets.has("pappu")
-// )
+// let someText = "hi my Name is Name pappu dey Name";
 
+// let result = someText.search(/name/i)
+// let result = someText.match(/name/gi) || [];
 
-// ourStudentSets.add(["pappu", "sourov", "sswarna", "nasifa"])
-// ourStudentSets.add(["pappu2", "sourov", "sswarna3", "nasifa"])
-// console.log(ourStudentSets)
+// if(result.length){
+//     console.log("Data")
+// }else{
+//     console.log("No Data ")
+// }
 
-// let allStudents = [ ]
-
-// ourStudentSets.forEach(function(value){
-    // allStudents  = allStudents+value
-//     allStudents.push(value)
-// })
-
-// console.log(allStudents)
+// alert(someText.match(/name/gi))
 
 
 
-let ourStudents = {
-    "name" : "Pappu",
-    "roll" : 23,
-    91 : "developer"
-}
+// let fullName = "Pappu Dey";
 
-let allStudents = new Map();
-allStudents.set("name" , "pappu")
-allStudents.set(01 , "developer")
-// console.log(allStudents.get("name"))
-// console.log(allStudents)
-// console.log(ourStudents)
-// console.log(ourStudents[91])
+// let result = fullName.replace(/pappu/i, "Sourov")
+
+// console.log(result)
 
 
-// allStudents.forEach(function(value,key){
-//     console.log(key, value)
-// })
 
-console.log(
-    allStudents.entries())
+// let str = "i lov js";
+
+// let regexp = /Love/i;
+
+// let result = regexp.test(str);
+// console.log(result)
