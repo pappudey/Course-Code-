@@ -1,33 +1,62 @@
-// regExp = new RegExp("pattern", "flags");
+// Js Error 
 
-// regExp = /pettern/i
-
-// let someText = "hi my Name is Name pappu dey Name";
-
-// let result = someText.search(/name/i)
-// let result = someText.match(/name/gi) || [];
-
-// if(result.length){
-//     console.log("Data")
-// }else{
-//     console.log("No Data ")
+// try{
+//     alet("hello")
+// }
+// catch(err){
+//     console.log(err.message)
 // }
 
-// alert(someText.match(/name/gi))
+// let x = 16;
+
+// try {
+//     if(x === "") throw "empty";
+//     if(isNaN(x)) throw "this is not a number";
+//     if (x > 10) throw "largest"
+// }catch(err){
+//     console.log(err)
+// }
 
 
 
-// let fullName = "Pappu Dey";
+// ourStudent = () =>{
+//     return "hello world"
+// }
 
-// let result = fullName.replace(/pappu/i, "Sourov")
+// "use strict"
+// let calculator
 
-// console.log(result)
+// calculator = (a, b) =>{
+//     return a * b
+// }
+
+// console.log(calculator(10,20))
+
+const person = {
+    firstName : "pappu",
+    
+    lastName : "Dey",
+}
 
 
+// person.fullName()
 
-// let str = "i lov js";
 
-// let regexp = /Love/i;
+class personDetails{
+    constructor(name,age){
+        this.name = name;
+        this.age = age
+    }
 
-// let result = regexp.test(str);
-// console.log(result)
+    study(status){
+        console.log(`he is a ${status} boy ${this.age}`)
+    }
+}
+
+let person1 = new personDetails("pappu", 15);
+let person2 = new personDetails("Sourov", 56)
+
+person1.study("good")
+
+console.log(person1)
+console.log(person2)
