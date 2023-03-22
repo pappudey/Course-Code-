@@ -1,0 +1,45 @@
+.acc_box {
+  width: 600px;
+  height: 136px;
+  background: #ddd;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.acc_content {
+  width: 400px;
+}
+
+.acc_btn {
+  width: 200px;
+  margin-top: 20px;
+}
+.text_hide {
+  display: none;
+}
+.text_show {
+  display: block;
+}
+.btn_add_show {
+  display: none;
+}
+.remove_Btn {
+  display: none;
+}
+.remove_btn_show {
+  display: block;
+}
+/* 
+
+
+.
+
+
+.show_Btn {
+  display: block;
+}
+
+.mainAddBtn {
+  display: none;
+} */
