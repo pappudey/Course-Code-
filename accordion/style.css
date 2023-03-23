@@ -43,3 +43,13 @@
 .mainAddBtn {
   display: none;
 } */
+
+button.toogleBtn img {
+  width: 20px;
+  height: auto;
+  transition: 0.3s;
+}
+
+.rotateBtn {
+  transform: rotate(180deg);
+}

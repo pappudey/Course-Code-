@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Js Dynamic Counter</title>
+  </head>
+  <body>
+    <div class="counter_wrapper">
+      <div class="counter_text">
+        <h2 class="counter_value">0</h2>
+      </div>
+      <div class="counter_action_btn">
+        <button class="dBtn startCounter" onclick="counterStart()">
+          Start
+        </button>
+        <button class="dBtn pauseBtn" onclick="pauseInterVal()">Pause</button>
+        <button class="dBtn" onclick="resetInterval()">Reset</button>
+        <button class="dBtn" onclick="napValue()">Nap</button>
+      </div>
+      <div>
+        <ul class="napCls"></ul>
+        <p class="ourClock"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
