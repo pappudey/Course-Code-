@@ -4,40 +4,6 @@
     <title>js Class</title>
   </head>
   <body>
-    <script>
-      let myObject = {
-        name: "Pappu",
-      };
-
-      myObject[Symbol.iterator] = function () {
-        let number = 0;
-        let status = false;
-
-        return {
-          next() {
-            number += 10;
-
-            if (number === 100) {
-              return {
-                value: "null",
-                done: true,
-              };
-            }
-
-            return { value: number, done: status };
-          },
-        };
-      };
-      let nextValue = myObject[Symbol.iterator]();
-
-      for (let n of myObject) {
-        console.log(n);
-      }
-      // console.log(nextValue.next());
-      // console.log(nextValue.next());
-      // console.log(nextValue.next());
-      // console.log(nextValue.next());
-      // console.log(nextValue.next());
-    </script>
+    <script src="promise.js"></script>
   </body>
 </html>
