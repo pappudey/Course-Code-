@@ -2,8 +2,102 @@
 <html lang="en">
   <head>
     <title>js Class</title>
+    <style type="text/css">
+      body {
+        font-family: arial;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 960px;
+        margin: 20 auto;
+      }
+      .title {
+        font-size: 18px;
+        color: #444;
+        font-family: arial black;
+        text-transform: uppercase;
+      }
+      .todos {
+        margin-top: 20px;
+      }
+      .btn {
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        opacity: 0.7;
+      }
+      .btn-danger {
+        background: red;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      .btn-success {
+        background: blueviolet;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      table tr td,
+      th {
+        padding: 10px;
+      }
+
+      .add {
+        margin-top: 20px;
+        width: 250px;
+      }
+
+      .inputbox {
+        width: 100%;
+        padding: 5px;
+      }
+
+      .inputbox input,
+      .inputbox button {
+        width: 100%;
+        font-size: 18px;
+        padding: 7px;
+      }
+    </style>
   </head>
   <body>
-    <script src="promise.js"></script>
+    <div class="container">
+      <div class="title">
+        <h2>Todo List</h2>
+      </div>
+
+      <div class="todos">
+        <table class="todoTable" border="1px" style="border-collapse: collapse">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Title</th>
+
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody id="tblData"></tbody>
+        </table>
+
+        <div class="add">
+          <div class="inputbox">
+            <input id="todoTitle" type="text" placeholder="Title" />
+          </div>
+
+          <div class="inputbox">
+            <button id="addTodo" class="btn btn-success">ADD</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="storage.js"></script>
   </body>
 </html>
